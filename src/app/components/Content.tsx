@@ -107,6 +107,7 @@ export const Content = () => {
             Wallows, Coin, girl in read and more
           </span>
         </a>
+
         <a href="" className="bg-white/5 p-2 rounded hover:bg-white/10">
           <Image
             className="w-full"
@@ -115,8 +116,10 @@ export const Content = () => {
             height={120}
             alt="capa do album"
           />
-          <strong>Daily mix 1</strong>
-          <span>Wallows, Coin, girl in read and more</span>
+          <strong className="font-semibold">Daily mix 1</strong>
+          <span className="text-xs text-zinc-500">
+            Wallows, Coin, girl in read and more
+          </span>
         </a>
         <a href="" className="bg-white/5 p-2 rounded hover:bg-white/10">
           <Image
@@ -126,8 +129,10 @@ export const Content = () => {
             height={120}
             alt="capa do album"
           />
-          <strong>Daily mix 1</strong>
-          <span>Wallows, Coin, girl in read and more</span>
+          <strong className="font-semibold">Daily mix 1</strong>
+          <span className="text-xs text-zinc-500">
+            Wallows, Coin, girl in read and more
+          </span>
         </a>
         <a href="" className="bg-white/5 p-2 rounded hover:bg-white/10">
           <Image
@@ -137,19 +142,10 @@ export const Content = () => {
             height={120}
             alt="capa do album"
           />
-          <strong>Daily mix 1</strong>
-          <span>Wallows, Coin, girl in read and more</span>
-        </a>
-        <a href="" className="bg-white/5 p-2 rounded hover:bg-white/10">
-          <Image
-            className="w-full"
-            src="/album.jpg"
-            width={120}
-            height={120}
-            alt="capa do album"
-          />
-          <strong>Daily mix 1</strong>
-          <span>Wallows, Coin, girl in read and more</span>
+          <strong className="font-semibold">Daily mix 1</strong>
+          <span className="text-xs text-zinc-500">
+            Wallows, Coin, girl in read and more
+          </span>
         </a>
       </div>
     </main>
